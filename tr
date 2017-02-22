@@ -1,0 +1,23 @@
+if(p>=(q+r)){
+        printf("NAO FORMA TRIANGULO\n");
+    }
+ 
+else{
+    if(l==(m+n)){
+        printf("TRIANGULO RETANGULO\n");
+    }
+    if(l>(m+n)){
+        printf("TRIANGULO OBTUSANGULO\n");
+    }
+    if(l<(m+n)){
+        printf("TRIANGULO ACUTANGULO\n");
+    }
+    if(p==q&&q==r){
+        printf("TRIANGULO EQUILATERO\n");
+    }
+    if(p==q&&r!=p||q==r&&p!=q||r==p&&q!=r){
+        printf("TRIANGULO ISOSCELES\n");
+    }
+    }
+    return 0;
+}
